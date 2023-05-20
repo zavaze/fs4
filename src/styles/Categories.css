@@ -1,0 +1,120 @@
+.categories-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    gap: 3rem;
+    color: #ffff;
+}
+
+.categories-card {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 224px;
+}
+
+.categories-card img {
+    border-radius: 20px;
+}
+
+.categories-card p {
+    color: #a1a1a1;
+}
+
+.explore-btn {
+    cursor: pointer;
+    width: 262px;
+    height: 42px;
+    background: linear-gradient(180deg, #D3B683 0%, #997F52 100%);
+    box-shadow: -8px -8px 20px rgba(42, 46, 53, 0.58886), 3px 8px 20px rgba(0, 0, 0, 0.353065);
+    border-radius: 37px;
+    filter: drop-shadow(3px 3px 70px rgba(250, 74, 12, 0.2));
+    margin-bottom: 3rem;
+}
+
+/* Large desktop */
+
+@media screen and (max-width: 1200px) {
+    .categories-card {
+        width: 200px;
+    }
+
+    .categories-card img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* your code */
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    /* your code */
+    .categories-card {
+        width: 150px;
+    }
+
+
+
+    .categories-card img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    /* your code */
+    .categories {
+        gap: 2rem;
+    }
+
+    .categories-card {
+        width: 110px;
+    }
+
+    .categories-card p {
+        font-size: 14px;
+    }
+
+    .categories-card img {
+        width: 110px;
+        height: 110px;
+    }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    .categories-card {
+        width: 80px;
+    }
+
+    .categories {
+        gap: 1rem;
+    }
+
+    .categories-card p {
+        font-size: 12px;
+    }
+
+    .categories-card h2 {
+        font-size: 12px;
+    }
+
+    .categories-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* your code */
+
+}

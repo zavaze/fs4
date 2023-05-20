@@ -1,0 +1,122 @@
+.nav-con {
+    top: 0;
+    position: sticky;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 3rem;
+    background-color: #1d1d1db7;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    align-items: center;
+    box-shadow: 0px 0px 3px #111216;
+}
+
+.nav-con a {
+    font-weight: bold;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+}
+
+.cart-con {
+    display: flex;
+    position: relative;
+    background-color: #111216;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.counter {
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    color: #111216;
+    background-color: #D6BD8B;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-con input {
+    text-align: center;
+    width: 700px;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    background-color: #111216;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Large desktop */
+
+@media screen and (max-width: 1400px) {
+
+    /* your code */
+    .logo {
+        width: 200px;
+    }
+
+    .nav-con input {
+        width: 500px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    /* your code */
+    .logo {
+        width: 180px;
+    }
+
+    .nav-con input {
+        width: 300px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 767px) {
+
+    /* your code */
+    .logo {
+        width: 150px;
+    }
+
+    .nav-con input {
+        width: 200px;
+    }
+}
+
+/* Landscape phones and down */
+@media screen and (max-width: 480px) {
+    .nav-con {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* your code */
+    .logo {
+        width: 100px;
+    }
+
+    .nav-con input {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {}

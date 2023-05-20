@@ -1,0 +1,38 @@
+.product-list-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {
+    overflow: hidden;
+    height: 471px;
+    margin: 5px;
+    flex: 1;
+    min-width: 280px;
+    width: 280px;
+    height: 471px;
+    border-radius: 20px;
+}
+
+.product-img {
+    position: relative;
+    right: 70px;
+    border-radius: 20px;
+    width: 150%;
+    height: 471px;
+}
+
+.product-title {
+    padding-top: 3rem;
+    display: flex;
+    height: 76px;
+    background: #2d344bb7;
+    backdrop-filter: blur(80px);
+    position: relative;
+    bottom: 9rem;
+    border-radius: 0 0 20px 20px;
+    transition: ease-in 0.3s;
+    justify-content: center;
+}

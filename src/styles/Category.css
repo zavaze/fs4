@@ -1,0 +1,41 @@
+.category-con {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 3rem;
+
+}
+
+.products-card {
+
+    height: 253px;
+    display: flex;
+    gap: 3rem;
+    color: #ffff;
+    overflow: hidden;
+}
+
+.products-card img {
+    border-radius: 20px;
+}
+
+.overlay {
+    display: flex;
+    height: 59px;
+    background: #2d344bb7;
+    backdrop-filter: blur(80px);
+    position: relative;
+    bottom: 5rem;
+    border-radius: 0 0 20px 20px;
+    transition: ease-in 0.3s;
+    justify-content: center;
+}
+
+
+.product-card:hover .overlay {
+    height: 255px;
+    transform: translateY(-77%);
+    justify-content: center;
+    align-items: center;
+    transition: ease-in 0.3s;
+    border-radius: 20px;
+}

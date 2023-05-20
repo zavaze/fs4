@@ -1,0 +1,227 @@
+.product-con {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.product-header-img img {
+    width: 100%;
+}
+
+.product-body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.facts {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.size {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 145px;
+    border: 1px #797C7F solid;
+    color: #797C7F;
+    background: none;
+}
+
+.size:focus {
+    background-color: #797C7F;
+    color: #ffff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 145px;
+    border: 1px #797C7F solid;
+
+
+}
+
+
+.size h4 {
+    margin-bottom: 0;
+}
+
+.size p {
+    margin-top: 0;
+}
+
+.product-qty {
+    padding: 5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.qty-btn {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 24px;
+    color: rgba(121, 124, 127, 1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #2A2E34;
+    border: #2A2E34;
+    box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.101672), 8px 8px 20px rgba(0, 0, 0, 0.353065);
+}
+
+.qty-num {
+    display: flex;
+    color: rgba(121, 124, 127, 1);
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    background: #111216;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 3px 1px #000000;
+}
+
+.add-to-cart {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 262px;
+    height: 42px;
+    background: linear-gradient(180deg, #D3B683 0%, #997F52 100%);
+    box-shadow: -8px -8px 20px rgba(42, 46, 53, 0.58886), 3px 8px 20px rgba(0, 0, 0, 0.353065);
+    border-radius: 37px;
+    filter: drop-shadow(3px 3px 70px rgba(250, 74, 12, 0.2));
+}
+
+.shopping-list-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(140.14deg, #C4B28B 15.05%, #BFAA7E 114.99%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    border-radius: 50%;
+    right: -80%;
+    top: -50px;
+    transition: all 0.5s ease;
+}
+
+.product-detail {
+    color: #bebebe9a;
+    width: 50%;
+}
+
+/* Large desktop */
+
+@media screen and (max-width: 1400px) {
+
+    /* your code */
+    .shopping-list-icon {
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+        top: -35px;
+    }
+
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    /* your code */
+    .size {
+        width: 180px;
+        height: 120px;
+    }
+
+    .product-detail {
+        width: 80%;
+    }
+
+    .qty-num {
+        font-size: 16px;
+        height: 70px;
+        width: 150px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    /* your code */
+    .facts {
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .product-detail {
+        width: 80%;
+    }
+
+    .qty-num {
+        font-size: 16px;
+        height: 70px;
+        width: 150px;
+    }
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    /* your code */
+    .size {
+        width: 180px;
+        height: 80px;
+        font-size: 12px;
+    }
+
+    .facts {
+        width: 90%;
+    }
+
+    .product-qty {
+        padding: 2rem;
+    }
+
+    .qty-num {
+        font-size: 16px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .product-detail {
+        width: 100%;
+    }
+
+    .product-body {
+        text-align: center;
+    }
+}

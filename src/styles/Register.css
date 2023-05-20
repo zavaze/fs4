@@ -1,0 +1,8 @@
+.name-lastname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-lastname input {
+    width: 140px;
+}

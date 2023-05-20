@@ -1,0 +1,63 @@
+.taste-con {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.slick-slide img {
+
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.slick-slide div {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slick-slide div div {
+    overflow: hidden;
+}
+
+.slick-slide div h3 {
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    bottom: -1rem;
+    border-radius: 0 0 20px 20px;
+    color: #ffff;
+
+    height: 100px;
+}
+
+.slick-slide {
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev {
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+.slick-next {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+/* .slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+    display: none !important;
+}
+
+.slick-dots {
+    display: none !important;
+} */
